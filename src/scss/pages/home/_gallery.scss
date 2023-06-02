@@ -1,0 +1,23 @@
+.gallery {
+    background-color: var(--color-accent);
+    display: grid;
+    grid-template-columns: var(--grid-container);
+
+    
+    &__inner {
+        grid-column: inner;
+        display: flex;
+        align-items: center;
+        gap: var(--gap-m);
+        margin: 0;
+        padding: 4rem 0;
+    }
+
+    figure {
+        margin: 0;
+    }
+
+    img {
+        display: block;
+    }
+}

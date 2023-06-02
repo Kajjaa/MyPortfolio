@@ -1,0 +1,51 @@
+@use '../../components/details';
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contact__inner {
+    max-width: 100%;
+    width: 100%;
+    margin: 0 5.1rem;
+    padding: 0 3rem;
+}
+
+.contact-form {
+    
+    
+    &__title {
+        @include details.separator;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 4.5rem;
+        font-size: 3rem;
+    }
+
+    &__form {
+        margin: 0 9rem;
+        padding: 0;    
+    }
+
+    input {
+        border-bottom: 2px solid var(--color-dark-500);
+    }
+
+    textarea {
+        resize: none;
+        border-bottom: 2px solid var(--color-dark-500);
+        margin-bottom: 2rem;
+    }
+
+    &__row {
+        display: flex;
+        margin: 0;
+        padding: 1.5rem 0 3rem 0;
+        gap: var(--gap-l);
+    }
+}

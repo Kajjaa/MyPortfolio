@@ -1,0 +1,101 @@
+h1, h2, h3, h4, h5, h6 {
+
+
+}
+
+h1 {
+    font-family: var(--font-sans);
+    font-size: 120px;
+    margin: 0;
+    padding: 0;
+    
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
+
+p {
+    line-height: var(--line-height);
+    
+}
+
+a {
+    color: var(--color-dark);
+    text-decoration: none;
+    &:hover {
+        color: var(--color-light);
+        text-decoration: underline;
+    }
+}
+
+a.arrow-link {
+    font-weight: var(--font-size-1);
+    font-size: 1rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    transition: color 0.2s;
+}
+
+a.arrow-link:hover {
+    color: #222;
+}
+
+a.arrow-link:hover svg {
+    transform: translate(0.5rem, 0.15rem);
+}
+
+a.arrow-link--white line {
+    stroke: #373737;
+}
+
+a.arrow-link--white:hover {
+    color: #222;
+}
+
+// li {
+//     line-height: var(--line-height);
+// }
+
+// span {
+
+// }
+
+/* LAYOUT */
+
+.container {
+
+}
+
+.hero,
+.about,
+.works,
+.contact {
+    display: grid;
+    grid-template-columns: minmax(2rem, 1fr) [inner-start] minmax(0, 67.5rem) [inner-end] minmax(2rem, 1fr);
+}
+
+.hero__inner,
+.about__inner,
+.works__inner,
+.contact__inner {
+    grid-column: inner;
+}

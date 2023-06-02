@@ -1,0 +1,45 @@
+.about {
+    background-color: #E7FFE2;
+}
+
+.about__inner {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 5rem 0;
+}
+
+.about__details {
+    display: flex;
+}
+
+.about__image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.about__content {
+    max-width: 28rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    padding: 2rem 2rem;
+    background-color: #CCEBC5;
+}
+
+.about__title {
+    font-family: var(--font-serif);
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 0.5rem 0;
+    padding: 0;
+}
+
+.about__text {
+    font-family: var(--font-serif);
+    font-size: var(--font-size);
+    margin: 0.4rem 0;
+    padding: 0;
+}

@@ -1,4 +1,4 @@
 # Portfolio
 
 ## Develop
-sass --watch src/scss/style.scss style.css# MyPortfolio
+sass --watch src/scss/style.scss style.css
