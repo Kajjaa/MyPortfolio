@@ -5,8 +5,8 @@
 
     
     &__inner {
-        grid-column: inner;
         display: flex;
+        justify-content: center;
         align-items: center;
         gap: var(--gap-m);
         margin: 0;

@@ -1,11 +1,11 @@
 h1, h2, h3, h4, h5, h6 {
-
+    line-height: 0.5em 0;
 
 }
 
 h1 {
     font-family: var(--font-sans);
-    font-size: 120px;
+    font-size: 15rem;
     margin: 0;
     padding: 0;
     
@@ -16,7 +16,7 @@ h2 {
 }
 
 h3 {
-
+    font-size: 1.5rem;
 }
 
 h4 {
@@ -33,10 +33,11 @@ h6 {
 
 p {
     line-height: var(--line-height);
-    
+    color: var(--color-dark-700);
 }
 
 a {
+    line-height: 1.5rem;
     color: var(--color-dark);
     text-decoration: none;
     &:hover {
@@ -71,13 +72,13 @@ a.arrow-link--white:hover {
     color: #222;
 }
 
-// li {
-//     line-height: var(--line-height);
-// }
+li {
 
-// span {
+}
 
-// }
+span {
+
+}
 
 /* LAYOUT */
 
