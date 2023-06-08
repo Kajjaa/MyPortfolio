@@ -1,6 +1,7 @@
-.site-footer {
+.footer {
     background-color: var(--color-accent-200);
     min-height: 15vh;
+    position: relative;
 
     &__inner {
 
@@ -24,7 +25,7 @@
             align-items: center;
         }
         
-        .site-footer__content {
+        .footer__content {
         color: var(--color-dark-300);
         font-size: var(--font-size);
         display: flex;
@@ -32,6 +33,30 @@
         align-items: center;
         margin-bottom: 2rem;
         }
+
     }
 
+        .scroll-up {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            right: 64px;
+            bottom: 64px;
+            width: 48px;
+            height: 48px;
+            border-radius: 100%;
+            border: 1px solid var(--color-dark-200);
+            background-color: var(--color-accent);
+            transition: background-color 0.2s;
+        }
+        
+        .scroll-up:hover {
+            color: var(--color-accent-200);
+            background-color: var(--color-light);
+            transform: color 0.2s;
+            
+        }
+
+    
 }
