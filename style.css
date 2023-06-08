@@ -240,7 +240,7 @@ a.arrow-link--white:hover {
 
 .menu__item--button .menu__link:hover {
   background-color: var(--color-accent);
-  color: var(--color-dark);
+  color: var(--color-darkt);
   border: 1px solid var(--color-dark);
 }
 
@@ -296,7 +296,7 @@ a.arrow-link--white:hover {
 .footer .scroll-up:hover {
   color: var(--color-accent-200);
   background-color: var(--color-light);
-  transform: color 0.2s;
+  transition: color 0.5s;
 }
 
 .hero {

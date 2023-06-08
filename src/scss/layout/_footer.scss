@@ -54,7 +54,7 @@
         .scroll-up:hover {
             color: var(--color-accent-200);
             background-color: var(--color-light);
-            transform: color 0.2s;
+            transition: color 0.5s;
             
         }
 
